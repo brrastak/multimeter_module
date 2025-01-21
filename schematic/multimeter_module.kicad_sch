@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Multimeter module")
-		(date "2025-01-17")
+		(date "2025-01-21")
 		(rev "1.0")
 		(company "Yuri Volkov")
 	)
@@ -774,46 +774,20 @@
 		)
 	)
 	(junction
-		(at 76.2 44.45)
+		(at 76.2 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07d772d9-d470-4106-9b20-a8a2deba9d52")
+		(uuid "1c9d9a97-def2-4d90-9b04-4b607b5adddf")
 	)
 	(junction
-		(at 127 44.45)
+		(at 127 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e4235b5-8a58-42f4-8919-1654594b20d1")
-	)
-	(junction
-		(at 101.6 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "705eec8e-2312-4a1e-830d-1e6feb5b91ad")
+		(uuid "538f2ada-57b5-4b6d-9f03-e8732f66c017")
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 76.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a9ba91c-b330-4fb4-be51-ff18ffc4676d")
-	)
-	(wire
-		(pts
-			(xy 50.8 44.45) (xy 50.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b0a8374-5a46-46b3-a898-3498ec10bb57")
-	)
-	(wire
-		(pts
-			(xy 127 38.1) (xy 127 44.45)
+			(xy 127 38.1) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
@@ -823,57 +797,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 57.15) (xy 101.6 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48874d6c-a4ac-412e-b6eb-399a5e795782")
-	)
-	(wire
-		(pts
-			(xy 127 57.15) (xy 127 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604e7a46-9a03-41cb-89ee-0d3236764c52")
-	)
-	(wire
-		(pts
-			(xy 101.6 57.15) (xy 101.6 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bf76939-28f4-4022-a992-463d79cef71a")
-	)
-	(wire
-		(pts
-			(xy 76.2 44.45) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c77ccaa-16be-405e-ae9c-99a93c0c6608")
-	)
-	(wire
-		(pts
-			(xy 76.2 38.1) (xy 76.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72882885-f588-4a45-8cf0-3af6c572c8a3")
-	)
-	(wire
-		(pts
-			(xy 101.6 73.66) (xy 101.6 76.2)
+			(xy 76.2 73.66) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -883,53 +807,53 @@
 	)
 	(wire
 		(pts
-			(xy 127 44.45) (xy 152.4 44.45)
+			(xy 76.2 50.8) (xy 76.2 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93912e24-8323-41b6-8cfa-b05be83cdd40")
+		(uuid "7f771fe8-6cac-433f-9004-604e0402b3d3")
 	)
 	(wire
 		(pts
-			(xy 77.47 57.15) (xy 76.2 57.15)
+			(xy 76.2 50.8) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c67fafe-8cd9-43c4-b305-dff8d4c6ec04")
+		(uuid "87461e8f-3153-43ba-bd44-9334281e663c")
 	)
 	(wire
 		(pts
-			(xy 101.6 57.15) (xy 115.57 57.15)
+			(xy 76.2 38.1) (xy 76.2 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0daa032-ada3-4269-ae9b-eb2c89cdebc6")
+		(uuid "aebe892e-baad-405f-be20-66dcaa3c8261")
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 127 57.15)
+			(xy 127 50.8) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefe7b83-dcf7-4b33-9c41-bef089317cc5")
+	)
+	(wire
+		(pts
+			(xy 125.73 50.8) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2508bc1-b31a-4dd4-a9a0-e29a7e665c34")
-	)
-	(wire
-		(pts
-			(xy 152.4 44.45) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f435e984-0126-4b79-9fa2-f4694786f0bc")
 	)
 	(text "+"
 		(exclude_from_sim no)
@@ -943,7 +867,7 @@
 	)
 	(text "CONNECT"
 		(exclude_from_sim no)
-		(at 82.55 61.468 0)
+		(at 83.312 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -953,23 +877,13 @@
 	)
 	(text "COM"
 		(exclude_from_sim no)
-		(at 152.4 85.852 0)
+		(at 127 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "c0b19000-014b-4733-be0c-e6cbbc99f6e2")
-	)
-	(text "A"
-		(exclude_from_sim no)
-		(at 50.8 86.106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cdace984-8252-436d-b4e9-f3eb18ea4aa9")
 	)
 	(text "-"
 		(exclude_from_sim no)
@@ -983,7 +897,7 @@
 	)
 	(text "mA"
 		(exclude_from_sim no)
-		(at 101.346 85.598 0)
+		(at 75.946 85.598 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -993,7 +907,7 @@
 	)
 	(text "SHORT"
 		(exclude_from_sim no)
-		(at 120.904 61.468 0)
+		(at 114.554 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1134,7 +1048,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 120.65 57.15 0)
+		(at 120.65 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1143,7 +1057,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4478154-5b8e-49a8-ae15-bff049dcc680")
 		(property "Reference" "SW2"
-			(at 120.65 50.8 0)
+			(at 120.65 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1065,7 @@
 			)
 		)
 		(property "Value" "A8L-11-11"
-			(at 120.65 53.34 0)
+			(at 120.65 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 57.15 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 57.15 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1091,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 120.65 57.15 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1116,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 101.6 69.85 180)
+		(at 76.2 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1210,7 +1124,7 @@
 		(dnp no)
 		(uuid "ce9f5eee-eae8-4193-affa-75f77295d7a2")
 		(property "Reference" "F1"
-			(at 104.14 68.5799 0)
+			(at 78.74 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1133,7 @@
 			)
 		)
 		(property "Value" "Fuse holder BK8-HTC-603M: 250 mA"
-			(at 104.14 71.1199 0)
+			(at 78.74 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.378 69.85 90)
+			(at 77.978 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 69.85 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1160,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 101.6 69.85 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1252,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 81.28 90)
+		(at 127 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1346,8 +1260,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d89a0e65-4a72-48e7-9cfe-c98982903049")
-		(property "Reference" "J5"
-			(at 153.67 79.3749 90)
+		(property "Reference" "J4"
+			(at 128.27 79.3749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1270,7 @@
 			)
 		)
 		(property "Value" "Banana plug 4mm"
-			(at 153.67 81.9149 90)
+			(at 128.27 81.9149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1288,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1297,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 81.28 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1311,7 @@
 		(instances
 			(project "shunt_shorter"
 				(path "/84ba716a-60cf-4250-88e7-78f58dda61e2"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1405,74 +1319,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 50.8 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc3c2b07-79da-4aab-9d1f-c56849031430")
-		(property "Reference" "J3"
-			(at 52.07 79.3749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Banana plug 4mm"
-			(at 52.07 81.9149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3bc5f55-f16b-4c10-9838-317009f5ee1b")
-		)
-		(instances
-			(project ""
-				(path "/84ba716a-60cf-4250-88e7-78f58dda61e2"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 101.6 81.28 90)
+		(at 76.2 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1480,8 +1327,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a611f1-33a9-4c5e-8b59-8f0ff354ba09")
-		(property "Reference" "J4"
-			(at 102.87 79.3749 90)
+		(property "Reference" "J3"
+			(at 77.47 79.3749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1337,7 @@
 			)
 		)
 		(property "Value" "Banana plug 4mm"
-			(at 102.87 81.9149 90)
+			(at 77.47 81.9149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 81.28 0)
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 81.28 0)
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1364,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 81.28 0)
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1378,7 @@
 		(instances
 			(project "shunt_shorter"
 				(path "/84ba716a-60cf-4250-88e7-78f58dda61e2"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1539,7 +1386,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 82.55 57.15 0)
+		(at 76.2 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1548,23 +1395,25 @@
 		(fields_autoplaced yes)
 		(uuid "eb2cc9e1-3b32-48c5-9274-d31c737294af")
 		(property "Reference" "SW1"
-			(at 82.55 50.8 0)
+			(at 78.74 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "A8L-11-11"
-			(at 82.55 53.34 0)
+			(at 78.74 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 57.15 0)
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 57.15 0)
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1431,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 82.55 57.15 0)
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
